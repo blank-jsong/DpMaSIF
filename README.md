@@ -41,7 +41,7 @@ If you have access to a cluster, then this process can be run in parallel. If yo
 sbatch data_prepare.slurm
 ```
 
-Most of the PDBs that were used for the paper, and their corresponding surfaces (with precomputed chemical features) are available at: https://doi.org/10.5281/zenodo.2625420 . The unbound proteins are available in this repository under [data/masif_ppi_search_ub/data_preparation/00-raw_pdbs/](https://github.com/LPDI-EPFL/masif/tree/master/data/masif_ppi_search_ub/data_preparation/00-raw_pdbs).
+Most of the PDBs that were used for the paper, and their corresponding surfaces (with precomputed chemical features) are available at: https://doi.org/10.5281/zenodo.2625420 . The unbound proteins are available in this repository under [data/masif_ppi_search_ub/data_preparation/00-raw_pdbs/](https://github.com/LPDI-EPFL/masif/tree/master/data/masif_ppi_search_ub/data_preparation/00-raw_pdbs).After downloading, please put them in the data/
 
 Note that the preparation of the data can consume a large amount of space for large protein databases. This is due to the fact that the preprocessing step decomposes protein surfaces into overlapping patches, which results in a large amount of duplicated data.
 
