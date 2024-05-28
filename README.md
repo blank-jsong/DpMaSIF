@@ -45,7 +45,7 @@ Most of the PDBs that were used for the paper, and their corresponding surfaces 
 
 Note that the preparation of the data can consume a large amount of space for large protein databases. This is due to the fact that the preprocessing step decomposes protein surfaces into overlapping patches, which results in a large amount of duplicated data.
 
-After protein data preparation, you can predict the sites of protein-compound interactions, you can run this process to get them:
+Before predicting the sites of protein-compound interactions, you should download the model of DeepPocket, click [here](https://iiitaphyd-my.sharepoint.com/personal/rishal_aggarwal_alumni_iiit_ac_in/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Frishal%5Faggarwal%5Falumni%5Fiiit%5Fac%5Fin%2FDocuments%2Fpbsp&ga=1) to download first_model_fold1_best_test_auc_85001.pth.tar and seg0_best_test_IOU_91.pth.tar. Then put them in the source/DeepPocket-main/. Then you can run this process to get the predictions:
 ```
 bash ./map_point.sh
 ```
