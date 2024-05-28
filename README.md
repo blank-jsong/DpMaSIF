@@ -77,3 +77,7 @@ The output of the evaluation is placed under the data/masif_ligand/test_set_pred
 5LXM_AD_logits_dpmasif.npy
 ```
 where the labels file contains the ground truth, and the logits file contains the prediction logits.
+## License
+This project is covered under the Apache 2.0 License.
+## Contact
+jsong: songhuajian2002@gmail.com
